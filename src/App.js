@@ -1,8 +1,5 @@
 import './App.css';
-import {BrowserRouter,Routes,Route,Link,Router} from 'react-router-dom';
-import Home from './day7/Home';
-import About from './day7/About';
-import Navbar from './day7/Navbar';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 export default function App() {
   return (
@@ -35,7 +32,7 @@ export default function App() {
       {/* <Propvalidation name={12}/> */}
       {/* <SpreadpassUnkonown title1='SKCET' type='password' placeholder='Enter Password' id='i'/> */}
       {/* <Reference/> */}
-      <BrowserRouter>
+      {/* <BrowserRouter>
       <ul>
           <li>
             <Link to="/Home">Home</Link>
@@ -45,13 +42,34 @@ export default function App() {
           <li>
             <Link to="/About">About</Link>
           </li>
-       </ul>
+       </ul> */}
        {/* <Navbar/> */}
-          <Routes>
+          {/* <Routes>
             <Route path='/Home' element={<Home/>}></Route>
             <Route path='/About' element={<About/>}></Route>
           </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
+      {/* <Day4PAH/> */}
+      {/* <AxiosGet/> */}
+      {/* <PostAxios/> */}
+      {/* <DelAxios/> */}
+      {/* <BrowserRouter>
+       <Day7cw/>
+          <Routes>
+            <Route path='/home' element={<Day7cwhelp1/>}></Route>
+            <Route path='/singers' element={<Day7cwhelp2/>}></Route>
+            <Route path='/album' element={<Day7cwhelp3/>}></Route>
+          </Routes>
+      </BrowserRouter> */}
+      {/* <BrowserRouter>
+       <Day7pah/>
+          <Routes>
+            <Route path='/home' element={<Home/>}></Route>
+            <Route path='/about' element={<About/>}></Route>
+          </Routes>
+      </BrowserRouter> */}
+      {/* <Day8cw/> */}
+      {/* <Day8Pah/> */}
     </div>
   );
 }

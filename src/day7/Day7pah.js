@@ -1,7 +1,7 @@
 import React from 'react'
 import { useNavigate} from 'react-router-dom'
 
-export default function Navbar() {
+export default function Day7pah() {
     const navigate=useNavigate();
     const handleHome=()=>{
         navigate("/home")
@@ -11,10 +11,8 @@ export default function Navbar() {
     }
   return (
     <div>
-        <ul>
-            <li onClick={handleHome}>HomeUsingNav</li>
-            <li onClick={handleAbout}>AboutUsingNav</li>
-        </ul>
+            <button onClick={handleHome}>Home</button>
+            <button onClick={handleAbout}>About</button>
     </div>
   )
 }
