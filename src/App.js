@@ -1,5 +1,6 @@
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import SignupPage from './day8extra/SignupPage';
 
 export default function App() {
   return (
@@ -70,6 +71,7 @@ export default function App() {
       </BrowserRouter> */}
       {/* <Day8cw/> */}
       {/* <Day8Pah/> */}
+      <SignupPage/>
     </div>
   );
 }
